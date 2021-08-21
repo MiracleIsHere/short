@@ -1,16 +1,20 @@
 # URL shortening service
-A full-stack web application that allows users to shorten URLs and then manage them
-## Features
-* solver
-* pencil marks
-* auto error-checking
-* useful highlighting
-* undo, clear cell, clear board, new board
-## Demo
-Solver|Pencil marks
-:-------------------------:|:-------------------------:
-![](https://imgur.com/w0QmoZN.png) | ![](https://imgur.com/ofDPzgg.png)
+A full-stack web application that allows users to shorten URLs and then manage them.
 
-Auto error-checking and useful highlighting
+https://short-bf323.web.app/
+## Features
+* shorten URLs with custom link code
+* authentication 
+* grant/revoke/request access to URL
+* manage subscriptions on shortened URLs
+* preview URL before redirecting
+## Demo
+Shorten URL
 :--------------------------------------------------:
-![](https://imgur.com/wG39Kin.png)
+![](https://imgur.com/LlMjCgC.png)
+Grant and revoke access
+![](https://imgur.com/9uz3WFp.png)
+Manage subscriptions
+![](https://imgur.com/HVqt3JN.png)
+Notifications
+![](https://imgur.com/AHUjztc.png)
