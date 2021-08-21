@@ -1,0 +1,60 @@
+// UI reducer types
+////UI-data(home page)
+export const SET_ERRORS = 'SET_ERRORS';
+export const LOADING_UI = 'LOADING_UI';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const LOADING_DATA = 'LOADING_DATA';
+export const STOP_LOADING_UI = 'STOP_LOADING_UI';
+////UI-data(link page)
+export const SET_ERRORS_LINK = 'SET_ERRORS_LINK';
+export const LOADING_UI_LINK = 'LOADING_UI_LINK';
+export const CLEAR_ERRORS_LINK = 'CLEAR_ERRORS_LINK';
+export const STOP_LOADING_UI_LINK = 'STOP_LOADING_UI_LINK';
+////UI-user(sub page)
+export const CLEAR_ERRORS_SUB = 'CLEAR_ERRORS_SUB';
+export const SET_ERRORS_SUB = 'SET_ERRORS_SUB';
+export const LOADING_UI_SUB = 'LOADING_UI_SUB';
+export const STOP_LOADING_UI_SUB = 'STOP_LOADING_UI_SUB';
+////UI(short page)
+export const CLEAR_ERRORS_SHORT = 'CLEAR_ERRORS_SHORT';
+export const SET_ERRORS_SHORT = 'SET_ERRORS_SHORT';
+export const LOADING_UI_SHORT = 'LOADING_UI_SHORT';
+export const STOP_LOADING_UI_SHORT = 'STOP_LOADING_UI_SHORT';
+////UI-user(add link sub)
+export const CLEAR_ERRORS_ADD_SUB = 'CLEAR_ERRORS_ADD_SUB';
+export const SET_ERRORS_ADD_SUB = 'SET_ERRORS_ADD_SUB';
+export const LOADING_UI_ADD_SUB = 'LOADING_UI_ADD_SUB';
+export const STOP_LOADING_UI_ADD_SUB = 'STOP_LOADING_UI_ADD_SUB';
+////UI-user(loading link subs)
+export const CLEAR_ERRORS_LINK_SUB_LIST = 'CLEAR_ERRORS_LINK_SUB_LIST';
+export const SET_ERRORS_LINK_SUB_LIST = 'SET_ERRORS_LINK_SUB_LIST';
+export const LOADING_UI_LINK_SUB_LIST = 'LOADING_UI_LINK_SUB_LIST';
+export const STOP_LOADING_UI_LINK_SUB_LIST = 'STOP_LOADING_UI_LINK_SUB_LIST';
+////UI-user(managing link subs)
+export const CLEAR_ERRORS_LINK_SUB = 'CLEAR_ERRORS_LINK_SUB';
+export const SET_ERRORS_LINK_SUB = 'SET_ERRORS_LINK_SUB';
+export const LOADING_UI_LINK_SUB = 'LOADING_UI_LINK_SUB';
+export const STOP_LOADING_UI_LINK_SUB = 'STOP_LOADING_UI_LINK_SUB';
+
+// Data reducer types
+export const POST_NA_SHORT = 'POST_NA_SHORT';
+export const POST_SHORT = 'POST_SHORT';
+export const SET_LINK = 'SET_LINK';
+export const CLEAR_LINK = 'CLEAR_LINK';
+
+// User reducer types
+export const ADD_SHORT = 'ADD_SHORT';
+export const DELETE_SUB = 'DELETE_SUB';
+export const ADD_SUB = 'ADD_SUB';
+export const ADD_LINK_SUBS = 'ADD_LINK_SUBS';
+export const SET_LINK_SUBS = 'SET_LINK_SUBS';
+export const DELETE_LINK_SUB = 'DELETE_LINK_SUB';
+export const UPDATE_LINK_SUB = 'UPDATE_LINK_SUB';
+export const SET_AUTHENTICATED = 'SET_AUTHENTICATED';
+export const SET_UNAUTHENTICATED = 'SET_UNAUTHENTICATED';
+export const SET_USER = 'SET_USER';
+export const LOADING_USER = 'LOADING_USER';
+export const CHANGE_SHORT_STATUS = 'CHANGE_SHORT_STATUS';
+export const MARK_NOTIFICATIONS_READ = 'MARK_NOTIFICATIONS_READ';
+export const MARK_NOTIFICATIONS_UI_READ = 'MARK_NOTIFICATIONS_UI_READ';
+export const DELETE_NOTIFICATION = 'DELETE_NOTIFICATION';
